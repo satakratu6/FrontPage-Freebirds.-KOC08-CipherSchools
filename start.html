@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <style>
+        body{
+            background: url(food3.jpg)no-repeat;
+            background-size: cover;
+        }
+        
+        
+        .h h1{
+            color: black;
+            background-color: aliceblue;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .ppt form{
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+
+            background-color: black;
+            opacity: 0.8;
+
+        
+
+
+        }
+
+
+        input[type="submit"]:hover{background-color: green;}
+
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="h" ><h1>Kindly Fill up Your Details</h1>
+    <div class="ppt">
+    <form method="GET" action="thankyou.html">
+        <label for="username">Your Full Name : </label>
+        <input type="text" id="Username"> <br> <br> 
+        <label for="Mobile_number">Mobile Number : </label>
+        <input type="tel" id="Mobile_number"> <br><br>
+        <label for="email">Email : </label>
+        <input type="email" id="email"> <br><br>
+        <p>Enter your date for Reservation</p>
+         <input type="date" name="" id=""> <br> <br>
+         <p>Enter your time of Lunch/Dinner</p>
+         <input type="time" name="" id=""> <br><br>
+
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+
+  
+</body>
+</html>

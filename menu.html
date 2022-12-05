@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+         body{
+            background: url(food.jpg)no-repeat;
+            background-size: cover;
+        }
+        h1{
+            background-color: bisque;
+            color: black;
+        }
+        
+        
+       
+        #section{
+            padding: 25px 0 25px 0;
+            text-align: center;
+            font-size: 2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #menu_row{
+            display: flex;
+            padding: 0 100px 0 100px;           
+        }
+        #menu_col{
+            box-shadow: 2px 2px 2px #bbb;
+            border: 1px solid #bbb;
+            background-color: #fff;
+            margin: 10px;
+            padding: 10px;
+            flex: 1;
+
+        }
+        #menu_col h2{
+            background-color: red;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            font-family: cursive;
+
+        }
+
+        #image{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            padding: 5px;
+            border: 2px solid orange;
+        }
+        #image img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 5px;
+
+        }
+
+        .box ul li a{
+            text-decoration: none;
+            color:black;
+            background-color: aliceblue;
+        }
+
+        .box ul li:hover{
+            background-color: rgb(248, 15, 30);
+        }
+
+
+
+
+    </style>
+</head>
+</head>
+<body>
+    <div id="menu">
+        <h1 id="section">Menu</h1>
+        <div id="menu_row">
+            <div id="menu_col">
+                <h2>Breakfast</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast2.jpeg">
+                    </div>
+                    <div>
+                        <h3>Chole Bhature</h3>
+                        <h4>40₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast3.jpg">
+                    </div>
+                    <div>
+                        <h3>Vada Pav</h3>
+                        <h4>30₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast4.jpeg">
+                    </div>
+                    <div>
+                        <h3>Sambar Vada</h3>
+                        <h4>35₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast5.jpeg">
+                    </div>
+                    <div>
+                        <h3>Samosa</h3>
+                        <h4>20₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast6.jpg">
+                    </div>
+                    <div>
+                        <h3>Litti Chokha</h3>
+                        <h4>25₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="breakfast7.jpeg">
+                    </div>
+                    <div>
+                        <h3>Masala Dosa</h3>
+                        <h4>50₹</h4>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="menu_col">
+                <h2>Lunch</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunchrice.jpg">
+                    </div>
+                    <div>
+                        <h3>Rice</h3>
+                        <h4>40₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunchparantha.jpg">
+                    </div>
+                    <div>
+                        <h3>Parantha</h3>
+                        <h4>30₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunchroti.jpg">
+                    </div>
+                    <div>
+                        <h3>Butter Tandoori Roti</h3>
+                        <h4>25₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunch1.jpeg">
+                    </div>
+                    <div>
+                        <h3>North Indian Veg Thali</h3>
+                        <h4>90₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunch2.jpeg">
+                    </div>
+                    <div>
+                        <h3>Bengali Non Veg Thali</h3>
+                        <h4>120₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="lunch3.jpg">
+                    </div>
+                    <div>
+                        <h3>Uttapam</h3>
+                        <h4>60₹</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_col">
+                <h2>Dinner</h2>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner1.jpg">
+                    </div>
+                    <div>
+                        <h3>Veg Biriyani</h3>
+                        <h4>80₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner2.jpeg">
+                    </div>
+                    <div>
+                        <h3>Mutton Biriyani</h3>
+                        <h4>210₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner3.jpg">
+                    </div>
+                    <div>
+                        <h3>Chicken Biriyani</h3>
+                        <h4>155₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner4.jpeg">
+                    </div>
+                    <div>
+                        <h3>Veg Fried rice</h3>
+                        <h4>60₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner5.jpeg">
+                    </div>
+                    <div>
+                        <h3>Chilly Paneer</h3>
+                        <h4>70₹</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div id="image">
+                        <img src="dinner6.jpeg">
+                    </div>
+                    <div>
+                        <h3>Paneer Fried Rice</h3>
+                        <h4>100₹</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <ul type="none">
+            <li> <a href="project.html"> Back to previous page </a></li>
+        </ul>
+
+    </div>
+
+
+</body>
+</html>
